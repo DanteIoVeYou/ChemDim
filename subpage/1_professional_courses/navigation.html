@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation</title>
+    <title>Professional Course</title>
 	<style>
-	.orange {
-		background-color: orange;
+	div {
+		margin:0px;
+		padding:0px
+		}
+	body {
+		background: url(professional_course_background.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
 	}
-	.blue {
-		background-color: blue;
+	h1 {
+		color: rgb(225,255,255);
+		text-align: center;
 	}
-	.box {
-		width: 200px;
-		height: 50px;
+	.slogan {
+		font-size: 108px;
+		text-align: center;
+		color: rgb(225,255,255);
 	}
-	.word {
-		font-size: 22px;
+	
+	p {
+		font-family: Times New Roman;
+		font-size: 30px;
+		font-style: italic;
+		text-align: center;
+		color: white;
+	}
+	
+	.pblank {
+		display: inline-block;
+		width: 140px;
+		height :100px;
+	}
+	.nav ul {
+		list-style: none;
+		text-align: center;
+	}
+	
+	.nav li {
+		display: inline;
+	}
+	
+	.nav a {
+		display: inline-block;
+		width: 250px;
+		height: 100px;
+		background-color:rgba(176,196,222,0.36);	
+		text-align: center;
+		line-height: 100px;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+	}
+	
+	
+	.nav a:hover {
+		background-color: Turquoise;
 	}
 	</style>
 </head>
+
 <body>
-    <h1>Navigation</h1>
-	<p>Here we have now indicated to establish 2 special columns to give our exhibition of class knowledge </p>
-	<a href="organic_chemistry_catalogue.html">
-	<div class="orange box word">Organic Chemistry</div>
-	</a>
-	
-	<div class="blue box word">Analytical Chemistry</div>
+	<h1>Professional Course</h1>
+	<p>Hey! This is our <strong>Professional Course</strong> part!</p>
+	<p>Here you can get all our professional courses' resources, including Notes,Exercises and Pertinent-Literature.</p>
+	<p>So if you feel a little bit puzzled with or cannot understand what the professor was saying, come on! </p>
+	<p>Well, of course, if you say you wrote down the most attractive notes in class, why not share and why not show?</p>
+	<p>The professional courses are from 2021-Full-Quarter to 2021-Full-Quarter.</p>
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="Organic_Chemistry/organic_chemistry_navigation.html" target="_blank" class="button1">Organic Chemistry</a>
+			</li>
+			<li>
+				<p class="pblank"></p>
+			</li>
+			<li>
+				<a href="#" target="_blank" class="button1">Analytical Chemistry</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#" class="button1">Organic Chemistry Exp.</a>
+			</li>
+			<li>
+				<p class="pblank"></p>
+			</li>
+			<li>
+				<a href="#" class="button1">Analytical Chemistry Exp.</a>
+			</li>
+		</ul>
+		
+	</div>
 </body>
+
 </html>
