@@ -7,43 +7,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organic_Chemistry</title>
 	<style>
+	body {
+		background: url(image_index/index_background3.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	h1 {
+		color: rgb(225,255,255);
+	}
 	.slogan {
-	font-size: 120px;
+		font-size: 108px;
+		text-align: center;
+		color: rgb(225,255,255);
 	}
 	
 	p {
-	font-size: 20px;
+		font-family: Times New Roman;
+		font-size: 30px;
+		text-align: center;
+		color: white;
 	}
 	
-	.catalogue {
-	font-size: 22px;
-	color: green;
+	.nav ul {
+		list-style: none;
+		text-align: center;
 	}
 	
-	.flask {
-	width: 200px;
+	.nav li {
+		display: inline;
+	}
 	
+	.nav a {
+		display: inline-block;
+		width: 250px;
+		height: 100px;
+		background-color:rgba(176,196,222,0.36);	
+		text-align: center;
+		line-height: 100px;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+	}
+	
+	.nav a:hover {
+		background-color: Turquoise;
 	}
 	</style>
 </head>
 
 <body>
 	<!-- introduction--!>
-    <h1>Introduction</h1>
+    <h1 align=center>Introduction</h1>
 	
-	<p>This is a test page of <strong>our organic chemistry class website</strong>, <strong>2020th Chemistry_Top-notch_Class</strong>, Soochow University, China</p> <br/>
+	<p>This is a test page of <strong>our organic chemistry class website</strong>, <strong>2020th Chemistry-Top-notch-Class</strong>, Soochow University, China</p> 
+	<p>The purpose of this page is to collect and sort our notes and knowledge points in class</p> 
+	<p>As well as providing an absolutely different way for us to get,receive and keep knowledge in mind.</p>
+	<p>Today is 28th, Sep, 2021 when I wrote the first line of codes.</p>
+	<p>We say :</p>
+	<div class="slogan">Chem is Try</div>
 	
-	<p>The purpose of this page is to collect and sort our notes and knowledge points in class</p> <br/>
 	
-	<p>As well as providing an absolutely different way for us to get,receive and keep knowledge in mind.</p><br/>
-	
-	<p>Today is 28th, Sep, 2021 when I wrote the first line of codes.</p><br/>
-	We say :<br/>
-	<p class="slogan">Chem is Try</p>
-	<p>Click the Flask below to jump to a test chemical Nagivation website</p>
-	
-	<div>
-	<a href="navigator.html"><img class="flask" src="flask.jpg"></a>
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="navigator.html" class="button1">Professional Course</a>
+			</li>
+			
+			<li>
+				<a href="navigator.html" class="button1">Paper Share</a>
+			</li>
+			
+			<li>
+				<a href="navigator.html" class="button1">Technical Terms</a>
+			</li>
+			
+			<li>
+				<a href="navigator.html" class="button1">Software</a>
+			</li>
+			
+			<li>
+				<a href="navigator.html" class="button1">Learning Resource</a>
+			</li>
+		</ul>
+		
 	</div>
 </body>
 
