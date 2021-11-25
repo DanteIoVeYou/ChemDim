@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021-11-26. An easy exercise to begin Comp.Chem.</title>
+</head>
+
+<body>
+    <h1>文献</h1>
+    <a href="https://pubs.acs.org/doi/10.1021/jacs.6b11234">Chemo- and Regioselective Distal Heteroaryl ipso-Migration:
+        A
+        General Protocol for Heteroarylation of Unactivated Alkenes</a>
+    <h1>文献提出的机理</h1>
+    <p>我用<b>1a</b>代替反应机理中的<b>1</b>进行计算</p>
+    <img src="2.JPG"><br>
+    <img src="1.JPG">
+    <h1>步骤</h1>
+    <p>以下使用Gaussian16进行计算</p>
+    <p>1.优化出三氟甲基自由基、1、I、II、III</p>
+    <p>2.</p>
+    <p>将I中新成的CC键拉长至1.85埃，固定优化</p>
+    <p>将II中新成的CC键拉长至2.00埃，固定优化</p>
+    <p>将II中断裂的CC键拉长至2.00埃，固定优化</p>
+    <p>寻找过渡态</p>
+    <h1>一些收获</h1>
+    <p>1.不要被gaussview所显示出来的化学键所迷惑，模型上的化学键长什么样只能起到参考作用，实际上原子之间有无作用力、作用力多大并不能依据gaussview进行判断</p>
+    <p>2.在用ts关键字进行过渡态搜索时，先对起反应的化学键进行固定优化有利于找到过渡态</p>
+    <p>3.在用ts关键字进行过渡态搜索时，对于过渡态的初猜很重要，对于反应键长的猜测会直接决定成败</p>
+    <p>4.用opt关键字优化分子构型时，初始模型的搭建的差异会导致优化出来的分子呈现不同的构象，能量上会有差异</p>
+</body>
+
+</html>
