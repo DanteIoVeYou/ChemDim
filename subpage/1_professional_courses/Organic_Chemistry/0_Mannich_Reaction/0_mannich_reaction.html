@@ -3,43 +3,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mannich Rection</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mannich Rection</title>
+	<script src="../jmol/jsmol/JSmol.min.js"></script>
+	<script src="../jmol/jsmol/js/Jmol2.js"></script>
+	<script>jmolInitialize("../jmol/jsmol");</script>
 	<style>
-	.slogan {
-	font-size: 120px;
-	}
-	
-	p {
-	font-size: 20px;
-	}
-	
-	.catalogue {
-	font-size: 22px;
-	color: green;
-	}
+		.slogan {
+			font-size: 120px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		h1 {
+			color: red;
+		}
+
+		h2 {
+			color: violet;
+		}
+
+		.catalogue {
+			font-size: 22px;
+			color: green;
+		}
+
+		dd,
+		title {
+			font-weight: bolder;
+			font-size: 20px;
+			color: green;
+		}
+
+		a {
+			text-decoration: none;
+		}
 	</style>
 </head>
 
 <body>
-</div>
-Notice:Quoted from wikipedia
-<h1>Summary</h1>
-<img src = "1.png"><br/><br/>
-<h1>Mechanism</h1>
-<h2>Step 1</h2>
-<p>The mechanism of the Mannich reaction starts with the formation of an iminium ion from the amine and the formaldehyde. Please note, the mechanism shown below is NOT correct. The pKa of the protonated oxygen is approximately -2. The amine base would simply deprotonate the carbonyl and stop the reaction. Consequently, it is imperative that this reaction is performed at a pH of approximately 4-5. The correct mechanism should start with a nucleophilic attack by the nitrogen atom on the carbonyl carbon.</p>
-<img src = "2.png"><br/><br/>
-<h2>Step 2</h2>
-<p>The compound with the carbonyl functional group (in this case a ketone) can tautomerize to the enol form, after which it can attack the iminium ion.</p>
-<img src = "3.png"><br/><br/>
-<h2>Step 3</h2>
-<p>On methyl ketones, the enolization and the Mannich addition can occur twice, followed by an β-elimination to yield β-amino enone derivatives.</p>
-<img src = "4.png"><br/>
-</div>
-
+	</div>
+	<h1>1.Summary</h1>
+	<img src="1.png"><br /><br />
+	<h1>2.Mechanism</h1>
+	<h2>Step 1</h2>
+	<p>The mechanism of the Mannich reaction starts with the formation of an iminium ion from the amine and the
+		formaldehyde. Please note, the mechanism shown below is NOT correct. The pKa of the protonated oxygen is
+		approximately -2. The amine base would simply deprotonate the carbonyl and stop the reaction. Consequently, it
+		is imperative that this reaction is performed at a pH of approximately 4-5. The correct mechanism should start
+		with a nucleophilic attack by the nitrogen atom on the carbonyl carbon.</p>
+	<img src="2.png"><br /><br />
+	<h2>Step 2</h2>
+	<p>The compound with the carbonyl functional group (in this case a ketone) can tautomerize to the enol form, after
+		which it can attack the iminium ion.</p>
+	<img src="3.png"><br /><br />
+	<h2>Step 3</h2>
+	<p>On methyl ketones, the enolization and the Mannich addition can occur twice, followed by an β-elimination to
+		yield β-amino enone derivatives.</p>
+	<img src="4.png"><br />
+	</div>
+	<h1>3.Calculation</h1>
+	<img src="mannich.JPG">
+	<P>Assuming R=Me</P>
+	<h2>Process 1:Formation of Eschenmoser's salt</h2>
+	<dl>
+		<dd>
+			Eschenmoser's salt: N,N-Dimethylmethaniminium<sup>+</sup>
+		</dd>
+		<dd>
+			<img src="process1.JPG">
+		</dd>
+		<p>
+			The first step is that 2° amine attacks the carbonyl to generate <b>1a</b>
+		</p>
+		<p>
+			I use Gaussian16 to optimize the structure of 1a with b3lyp/6-31g(d)
+		</p>
+		<dd class="title">1a</dd>
+		<script>
+			jmolApplet(400, "load 1a.pdb", "0");
+		</script>
+		<p>
+			not completing......
+		</p>
+		<p>
+			updating......
+		</p>
+	</dl>
+	<h1>4.References</h1>
+	<p>
+		<a href="https://en.wikipedia.org/wiki/Mannich_reaction">1.Mannich reaction---wikipedia </a>
+	</p>
 </body>
 
 </html>
