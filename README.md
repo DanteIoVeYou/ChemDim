@@ -1,5 +1,5 @@
 # ChemDim
-项目网站：[www.chemdim.com](www.chemdim.com)
+项目网站：[www.chemdim.com](https://www.chemdim.com)
 
 ## 目录
 
