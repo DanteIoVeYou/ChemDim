@@ -1,5 +1,8 @@
 # ChemDim
+项目网站：[www.chemdim.com](www.chemdim.com)
+
 ## 目录
+
 1.项目简介/目标
 
 2.项目结构
