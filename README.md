@@ -1,6 +1,8 @@
 # ChemDim
 项目网站：[www.chemdim.com](https://www.chemdim.com)
 
+ChemDim.zip 包含了网站的所有文件
+
 ## 目录
 
 1.项目简介/目标
